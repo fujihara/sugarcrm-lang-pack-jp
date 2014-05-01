@@ -98,7 +98,7 @@ $mod_strings                        = array (
 	'LBL_GOTO_DATE'                    => '日付へ',
 	'NOTICE_DURATION_TIME'             => '期間は0以上を設定してください。',
 	'LBL_STYLE_BASIC'                  => '基本',
-	'LBL_STYLE_ADVANCED'               => 'アドバンスト',
+	'LBL_STYLE_ADVANCED'               => '詳細',
 
 	'LBL_INFO_TITLE'                   => '詳細',
 	'LBL_INFO_DESC'                    => '説明',
