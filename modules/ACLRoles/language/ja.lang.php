@@ -44,14 +44,14 @@ $mod_strings                = array (
 	'LIST_ROLES'               => '役割',
 	'LBL_USERS_SUBPANEL_TITLE' => 'ユーザ',
 	'LIST_ROLES_BY_USER'       => 'ユーザ別役割',
-	'LBL_LIST_FORM_TITLE'      => 'Roles',
+	'LBL_LIST_FORM_TITLE'      => '役割',
 	'LBL_ROLES_SUBPANEL_TITLE' => 'ユーザの役割',
 	'LBL_SEARCH_FORM_TITLE'    => '検索',
 	'LBL_CREATE_ROLE'          => '役割作成',
 	'LBL_EDIT_VIEW_DIRECTIONS' => '値を変更するにはセルをダブルクリックしてください。',
 	'LBL_ACCESS_DEFAULT'       => '設定なし',
-	'LBL_ACTION_ADMIN'         => 'Access Type',
+	'LBL_ACTION_ADMIN'         => 'アクセスタイプ',
 	'LBL_ALL'                  => 'すべてのモジュール',
-	'LBL_DUPLICATE_OF'         => ' 複製: ',
+	'LBL_DUPLICATE_OF'         => '複製: ',
 );
 ?>

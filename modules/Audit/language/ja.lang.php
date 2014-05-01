@@ -43,6 +43,6 @@ $mod_strings                    = array (
 	'LBL_LIST_DATE'                => '最終更新日',
 	'LBL_AUDITED_FIELDS'           => 'このモジュールで監査されるフィールド: ',
 	'LBL_NO_AUDITED_FIELDS_TEXT'   => 'このモジュールで監査されているフィールドはありません',
-	'LBL_CHANGE_LOG'               => 'Change Log',
+	'LBL_CHANGE_LOG'               => ‘ログ変更’,
 );
 ?>

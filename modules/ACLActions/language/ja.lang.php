@@ -36,7 +36,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  ********************************************************************************/
 
 $mod_strings                = array (
-	'LBL_ACCESS_ALL'           => 'すべて',
+	'LBL_ACCESS_ALL'           => 'CRM Menu',
 	'LBL_ACCESS_NONE'          => 'なし',
 	'LBL_ACCESS_OWNER'         => 'オーナー',
 	'LBL_ACCESS_NORMAL'        => '標準',
@@ -58,7 +58,7 @@ $mod_strings                = array (
 	'LBL_ACTION_IMPORT'        => 'インポート',
 	'LBL_ACTION_EXPORT'        => 'エクスポート',
 	'LBL_ACTION_LIST'          => '一覧',
-	'LBL_ACTION_MASSUPDATE'    => 'Mass Update',
+	'LBL_ACTION_MASSUPDATE'    => ‘更新’,
 	'LBL_ACTION_ACCESS'        => 'アクセス',
 	'LBL_ACTION_ADMIN'         => 'ユーザタイプ',
 	'LBL_ACCESS_DEFAULT'       => '設定なし',

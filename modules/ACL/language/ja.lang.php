@@ -36,7 +36,7 @@ if (!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  ********************************************************************************/
 
 $mod_strings                = array (
-	'LBL_ALLOW_ALL'            => 'すべての',
+	'LBL_ALLOW_ALL'            => '全ての',
 	'LBL_ALLOW_NONE'           => 'なし',
 	'LBL_ALLOW_OWNER'          => 'オーナー',
 	'LBL_ROLE'                 => '役割',
@@ -48,8 +48,8 @@ $mod_strings                = array (
 	'LBL_ROLES_SUBPANEL_TITLE' => 'ユーザの役割',
 	'LBL_SEARCH_FORM_TITLE'    => '検索',
 	'LBL_NO_ACCESS'            => 'このエリアにアクセスできません。アクセス権を取得するには管理者に連絡してください。',
-	'LBL_REDIRECT_TO_HOME'     => 'Redirect to Home in',
-	'LBL_SECONDS'              => 'seconds',
-	'LBL_ADDING'               => '以下に追加 '
+	'LBL_REDIRECT_TO_HOME'     => 'Homeへリダイレクト',
+	'LBL_SECONDS'              => '秒',
+	'LBL_ADDING'               => '以下に追加'
 );
 ?>
