@@ -121,11 +121,11 @@ $mod_strings                    = array (
 	//DROP DOWN EDITOR
 	'LBL_DD_DISPALYVALUE'          => '表示する値',
 	'LBL_DD_DATABASEVALUE'         => 'データベースの値',
-	'LBL_DD_ALL'                   => 'すべての',
+	'LBL_DD_ALL'                   => 'CRM',
 
 	//BUTTONS
 	'LBL_BTN_SAVE'                 => '保存',
-	'LBL_BTN_CANCEL'               => 'Cancel',
+	'LBL_BTN_CANCEL'               => 'キャンセル',
 	'LBL_BTN_SAVEPUBLISH'          => '保存＆展開',
 	'LBL_BTN_HISTORY'              => '履歴',
 	'LBL_BTN_NEXT'                 => '次へ',
@@ -135,7 +135,7 @@ $mod_strings                    = array (
 	'LBL_BTN_UNDO'                 => '元に戻す',
 	'LBL_BTN_REDO'                 => '繰り返す',
 	'LBL_BTN_ADDCUSTOMFIELD'       => 'カスタムフィールド追加',
-	'LBL_BTN_TABINDEX'             => 'tabindexの編集',
+	'LBL_BTN_TABINDEX'             => 'タブインデックスの編集',
 
 	//TABS
 	'LBL_TAB_SUBTABS'              => 'サブタブ',
@@ -178,22 +178,22 @@ $mod_strings                    = array (
 	'ERROR_SP_UPLOADED'            => 'CSS スタイルシートがアップロードされてていることを確認してください。',
 	'LBL_SP_PREVIEW'               => 'これがスタイルシートを適用後のプレビューです。',
 
-	'LBL_SAVE'                     => 'Save' /*for 508 compliance fix*/,
+	'LBL_SAVE'                     => '保存' /*for 508 compliance fix*/,
 	'LBL_UNDO'                     => 'Undo' /*for 508 compliance fix*/,
 	'LBL_REDO'                     => 'Redo' /*for 508 compliance fix*/,
-	'LBL_INLINE'                   => 'Inline' /*for 508 compliance fix*/,
-	'LBL_DELETE'                   => 'Delete' /*for 508 compliance fix*/,
-	'LBL_ADD_FIELD'                => 'Add Field' /*for 508 compliance fix*/,
-	'LBL_MAXIMIZE'                 => 'Maximize' /*for 508 compliance fix*/,
-	'LBL_MINIMIZE'                 => 'Minimize' /*for 508 compliance fix*/,
-	'LBL_PUBLISH'                  => 'Publish' /*for 508 compliance fix*/,
-	'LBL_ADDROWS'                  => 'Add Rows' /*for 508 compliance fix*/,
-	'LBL_ADDFIELD'                 => 'Add Field' /*for 508 compliance fix*/,
-	'LBL_EDIT'                     => 'Edit' /*for 508 compliance fix*/,
+	'LBL_INLINE'                   => 'インライン' /*for 508 compliance fix*/,
+	'LBL_DELETE'                   => '削除' /*for 508 compliance fix*/,
+	'LBL_ADD_FIELD'                => 'フィールド追加' /*for 508 compliance fix*/,
+	'LBL_MAXIMIZE'                 => '最大化' /*for 508 compliance fix*/,
+	'LBL_MINIMIZE'                 => '最小化' /*for 508 compliance fix*/,
+	'LBL_PUBLISH'                  => '発行' /*for 508 compliance fix*/,
+	'LBL_ADDROWS'                  => '行を追加' /*for 508 compliance fix*/,
+	'LBL_ADDFIELD'                 => 'フィールド追加' /*for 508 compliance fix*/,
+	'LBL_EDIT'                     => '編集' /*for 508 compliance fix*/,
 
-	'LBL_LANGUAGE_TOOLTIP'         => 'Select the language to edit.',
-	'LBL_SINGULAR'                 => 'Singular Label',
-	'LBL_PLURAL'                   => 'Plural Label',
-	'LBL_RENAME_MOD_SAVE_HELP'     => 'Click <b>Save</b> to apply the changes.'
+	'LBL_LANGUAGE_TOOLTIP'         => '言語を選択してください。',
+	'LBL_SINGULAR'                 => 'シングルラベル',
+	'LBL_PLURAL'                   => '複数ラベル',
+	'LBL_RENAME_MOD_SAVE_HELP'     => 'クリック <b>保存</b> で変更を反映します。'
 );
 ?>
