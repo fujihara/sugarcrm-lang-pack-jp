@@ -121,8 +121,8 @@ $mod_strings                        = array (
 	'NOTICE_DURATION_TIME'             => '時間は0以上である必要があります。',
 	'LBL_CALL_INFORMATION'             => 'コール情報',
 	'LBL_REMOVE'                       => '削除',
-	'LBL_ACCEPT_STATUS'                => 'Accept Status',
-	'LBL_ACCEPT_LINK'                  => 'Accept Link',
+	'LBL_ACCEPT_STATUS'                => 'ステータス承認',
+	'LBL_ACCEPT_LINK'                  => 'リンク承認',
 	//For export labels
 	'LBL_PARENT_ID'                    => '親会社ID',
 	'LBL_EXPORT_MODIFIED_USER_ID'      => '更新ユーザID',
