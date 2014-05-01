@@ -37,7 +37,7 @@ if (!defined('sugarEntry') || !sugarEntry)
  ********************************************************************************/
 
 $mod_strings                            = array (
-	'LBL_MODULE_NAME'                      => 'ホーム',
+	'LBL_MODULE_NAME'                      => 'Home',
 	'LBL_MODULES_TO_SEARCH'                => 'モジュール検索',
 	'LBL_NEW_FORM_TITLE'                   => '取引先担当者作成',
 	'LBL_FIRST_NAME'                       => '名:',
