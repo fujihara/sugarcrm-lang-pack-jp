@@ -500,7 +500,7 @@ $mod_strings                                    = array(
 	'LBL_WIZARD_FINISH_BUTTON'                     => '完了',
 	'LBL_WIZARD_FINISH_TAB'                        => '完了',
 	'LBL_WIZARD_FINISH_TITLE'                      => '準備完了！',
-	'LBL_WIZARD_FINISH'                            => '<b>完了</b><br /><br />
+	'LBL_WIZARD_FINISH'                            => '<b>完了</b><br /><br />,
 	
 
 	'LBL_WIZARD_FINISH'                            => 'クリック <b>完了</b> below to save your settings and to begin using Sugar. For more information on using Sugar:<br /><br />
@@ -547,7 +547,7 @@ $mod_strings                                    = array(
 	'LBL_THEMEPREVIEW'                             => 'プレビュー' /*for 508 compliance fix*/ ,
 
 	'LBL_OAUTH_TOKENS'                             => 'Oトークン認証',
-	'LBL_OAUTH_TOKENS_SUBPANEL_TITLE'              => "Oトークン認証アクセスs",
+	'LBL_OAUTH_TOKENS_SUBPANEL_TITLE'              => "Oトークン認証アクセス",
 
 	//For export labels
 	'LBL_MODIFIED_USER_ID'                         => '更新ユーザID',
