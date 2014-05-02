@@ -72,14 +72,14 @@ $mod_strings                                    = array(
 	'ERR_USER_NAME_EXISTS_2'                       => 'は既に存在します。ユーザ名の重複はできません。<br>',
 	'ERR_USER_IS_LOCKED_OUT'                       => 'This user is locked out of the Sugar application and cannot log in using his/her existing password.',
 
-	'LBL_PASSWORD_SENT'                            => 'Password Updated',
-	'LBL_CANNOT_SEND_PASSWORD'                     => 'Cannot send password',
-	'ERR_EMAIL_NOT_SENT_ADMIN'                     => 'System is unable to process your request. Please check:',
-	'ERR_SMTP_URL_SMTP_PORT'                       => 'SMTP Server URL and Port',
-	'ERR_SMTP_USERNAME_SMTP_PASSWORD'              => 'SMTP Username and  SMTP Password',
-	'ERR_RECIPIENT_EMAIL'                          => 'Recipient Email Address',
-	'ERR_SERVER_STATUS'                            => 'Your server status',
-	'ERR_SERVER_SMTP_EMPTY'                        => 'The system is unable to send an email to the user. Please check the Outgoing Mail Configuration in <a href="index.php?module=EmailMan&action=config">Email Settings</a>.',
+	'LBL_PASSWORD_SENT'                            => 'パスワードが更新されました。',
+	'LBL_CANNOT_SEND_PASSWORD'                     => 'パスワードを送信できませんでした。',
+	'ERR_EMAIL_NOT_SENT_ADMIN'                     => 'リクエストエラー:',
+	'ERR_SMTP_URL_SMTP_PORT'                       => 'SMTPサーバURLとポートt',
+	'ERR_SMTP_USERNAME_SMTP_PASSWORD'              => 'SMTPユーザ名とSMTPパスワード',
+	'ERR_RECIPIENT_EMAIL'                          => 'エラー：Recipient Email',
+	'ERR_SERVER_STATUS'                            => 'サーバステータスエラー',
+	'ERR_SERVER_SMTP_EMPTY'                        => 'エラー： SMTPの設定を確認してください。 <a href="index.php?module=EmailMan&action=config">Eメール設定</a>.',
 
 	'LBL_ADDRESS_CITY'                             => '住所 市区町村',
 	'LBL_ADDRESS_COUNTRY'                          => '住所 国',
@@ -241,7 +241,7 @@ $mod_strings                                    = array(
 	'LBL_MESSENGER_TYPE'                           => 'IMタイプ',
 	'LBL_MOBILE_PHONE'                             => '携帯電話',
 	'LBL_MODIFIED_BY'                              => '更新者',
-	'LBL_CREATED_BY_NAME'                          => 'Created By', //bug 48978
+	'LBL_CREATED_BY_NAME'                          => '作成者', //bug 48978
 	'LBL_MODIFIED_BY_ID'                           => '更新者ID',
 	'LBL_MODULE_NAME'                              => 'ユーザ',
 	'LBL_MODULE_TITLE'                             => 'ユーザ: ホーム',
@@ -273,7 +273,7 @@ $mod_strings                                    = array(
 	'LBL_PASSWORD_EXPIRATION_GENERATED'            => 'パスワードが自動生成されました。',
 	'LBL_PASSWORD_EXPIRATION_TIME'                 => 'パスワードの期限が切れました。新しいパスワードを登録してください。',
 
-	'LBL_PSW_MODIFIED'                             => '前回変更したパスワード',
+	'LBL_PSW_MODIFIED'                             => 'パスワード発行日',
 	'LBL_PHONE'                                    => '電話',
 	'LBL_PICK_TZ_WELCOME'                          => 'Sugarにようこそ。',
 	'LBL_PICK_TZ_DESCRIPTION'                      => '継続する前に、タイムゾーンを確認してください。以下から適切なタイムゾーンを選択して保存を押下してください。タイムゾーンは後でユーザ設定から変更できます。',
@@ -327,7 +327,7 @@ $mod_strings                                    = array(
 	'LBL_SETTINGS_URL_DESC'                        => 'Microsoft&reg; Outlook&reg;とMicrosoft&reg; Word&reg;用のSugarプラグインのログイン設定を行うにはこのURLを使用してください。',
 	'LBL_SETTINGS_URL'                             => 'URL',
 	'LBL_SIGNATURE'                                => 'シグニチャ',
-	'LBL_SIGNATURE_HTML'                           => 'ＨＴＭＬシグニチャ',
+	'LBL_SIGNATURE_HTML'                           => 'HTMLシグニチャ',
 	'LBL_SIGNATURE_DEFAULT'                        => 'シグニチャを利用',
 	'LBL_SIGNATURE_PREPEND'                        => '返信時に上記シグネチャを利用',
 	'LBL_SIGNATURES'                               => 'シグニチャ',
@@ -366,8 +366,8 @@ $mod_strings                                    = array(
 	'LBL_USER'                                     => 'ユーザ',
 	'LBL_WORK_PHONE'                               => '勤務先電話番号',
 	'LBL_YOUR_PUBLISH_URL'                         => '私の場所に公開',
-	'LBL_ICAL_PUB_URL'                             => 'iCal integration URL',
-	'LBL_ICAL_PUB_URL_HELP'                        => 'Use this URL to subscribe to the Sugar calendar within iCal.',
+	'LBL_ICAL_PUB_URL'                             => 'iCalインテグレーションURL',
+	'LBL_ICAL_PUB_URL_HELP'                        => 'このURLを使って、SugarカレンダーにiCalをインテグレーションできます。',
 	'LBL_YOUR_QUERY_URL'                           => 'クエリURL',
 	'LNK_NEW_USER'                                 => 'ユーザ作成',
 	'LNK_NEW_PORTAL_USER'                          => 'ポータルAPIユーザ作成',
@@ -503,54 +503,54 @@ $mod_strings                                    = array(
 	'LBL_WIZARD_FINISH'                            => '<b>完了</b><br /><br />
 	
 
-	'LBL_WIZARD_FINISH'                            => 'Click <b>Finish</b> below to save your settings and to begin using Sugar. For more information on using Sugar:<br /><br />
+	'LBL_WIZARD_FINISH'                            => 'クリック <b>完了</b> below to save your settings and to begin using Sugar. For more information on using Sugar:<br /><br />
 <table cellpadding                              = 0 cellspacing=0>
 <tr><td><!--not_in_theme!--><img src            = include/images/university.png style="margin-right: 5px;"></td><td><a href="http://www.sugarcrm.com/university" target="_blank"><b>Sugar University</b></a><br>End-user and System Administrator Training and Resources</td></tr>
 <tr><td colspan                                 = 2><hr style="margin: 5px 0px;"></td></tr>
-<tr><td><!--not_in_theme!--><img src            = include/images/docs.png style="margin-right: 5px;"></td><td><a href="http://docs.sugarcrm.com/" target="_blank"><b>Documentation</b></a><br>Product Guides and Release Notes</td></tr>
+<tr><td><!--not_in_theme!--><img src            = include/images/docs.png style="margin-right: 5px;"></td><td><a href="http://docs.sugarcrm.com/" target="_blank"><b>文書</b></a><br>Product Guides and Release Notes</td></tr>
 <tr><td colspan                                 = 2><hr style="margin: 5px 0px;"></td></tr>
-<tr><td><!--not_in_theme!--><img src            = include/images/kb.png style="margin-right: 5px;"></td><td><a href="http://kb.sugarcrm.com/" target="_blank"><b>Knowledge Base</b></a><br>Tips from SugarCRM Support for performing common tasks and processes in Sugar</td></tr>
+<tr><td><!--not_in_theme!--><img src            = include/images/kb.png style="margin-right: 5px;"></td><td><a href="http://kb.sugarcrm.com/" target="_blank"><b>ナレッジベース</b></a><br>Tips from SugarCRM Support for performing common tasks and processes in Sugar</td></tr>
 <tr><td colspan                                 = 2><hr style="margin: 5px 0px;"></td></tr>
-<tr><td><!--not_in_theme!--><img src            = include/images/forums.png style="margin-right: 5px;"></td><td><a href="http://www.sugarcrm.com/forums" target="_blank"><b>Forums</b></a><br>Forums dedicated to the Sugar Community to discuss topics of interest with each other and with SugarCRM Developers</td></tr>
+<tr><td><!--not_in_theme!--><img src            = include/images/forums.png style="margin-right: 5px;"></td><td><a href="http://www.sugarcrm.com/forums" target="_blank"><b>フォーラム</b></a><br>Forums dedicated to the Sugar Community to discuss topics of interest with each other and with SugarCRM Developers</td></tr>
 </table>',
 
-	'LBL_WIZARD_FINISH1'                           => 'What would you like to do next?',
-	'LBL_WIZARD_FINISH2'                           => 'Start Using Sugar',
-	'LBL_WIZARD_FINISH3'                           => 'Import Data ',
-	'LBL_WIZARD_FINISH4'                           => 'Import data from external sources into the application.',
-	'LBL_WIZARD_FINISH5'                           => 'Create Users',
-	'LBL_WIZARD_FINISH6'                           => 'Create new user accounts for people to use to access the application.',
-	'LBL_WIZARD_FINISH7'                           => 'View and Manage Application Settings',
-	'LBL_WIZARD_FINISH8'                           => 'Manage advanced settings, including default application settings.',
-	'LBL_WIZARD_FINISH9'                           => 'Configure the Application ',
-	'LBL_WIZARD_FINISH10'                          => 'Use Studio to create and manage application fields and layouts.',
-	'LBL_WIZARD_FINISH11'                          => 'Visit Sugar University ',
-	'LBL_WIZARD_FINISH12'                          => 'Find training materials and classes that will help you get started as a system administrator or end user of the application.',
-	'LBL_WIZARD_FINISH14'                          => 'Documentation ',
-	'LBL_WIZARD_FINISH15'                          => 'Product Guides and Release Notes ',
-	'LBL_WIZARD_FINISH16'                          => 'Knowledge Base ',
-	'LBL_WIZARD_FINISH17'                          => 'Tips from SugarCRM Support for performing common tasks and processes in Sugar ',
-	'LBL_WIZARD_FINISH18'                          => 'Forums ',
-	'LBL_WIZARD_FINISH19'                          => 'Forums dedicated to the Sugar Community to discuss topics of interest with each other and with SugarCRM Developers ',
-	'LBL_WIZARD_FINISH2DESC'                       => 'Go directly to the application Home page.',
-	'LBL_WIZARD_PERSONALINFO'                      => 'Your Information',
-	'LBL_WIZARD_LOCALE'                            => 'Your Locale',
-	'LBL_WIZARD_SMTP'                              => 'Your Email Account',
-	'LBL_WIZARD_PERSONALINFO_DESC'                 => 'Provide information about yourself. The information you provide about yourself will be visible to other Sugar users.<br />Fields marked with <span class="required">*</span> are required.',
-	'LBL_WIZARD_LOCALE_DESC'                       => 'Specify your time zone and how you would like dates, currencies and names to appear in Sugar.',
-	'LBL_WIZARD_SMTP_DESC'                         => 'Provide your email account username and password for the default outbound email server.',
-	'LBL_EAPM_SUBPANEL_TITLE'                      => 'External Accounts',
+	'LBL_WIZARD_FINISH1'                           => '次は何をしますか?',
+	'LBL_WIZARD_FINISH2'                           => 'Sugarをはじめる',
+	'LBL_WIZARD_FINISH3'                           => 'データインポート',
+	'LBL_WIZARD_FINISH4'                           => '外部データソースよりデータをインポート',
+	'LBL_WIZARD_FINISH5'                           => 'ユーザ作成 ',
+	'LBL_WIZARD_FINISH6'                           => 'アプリケーションにアクセス可能な新しいユーザアカウントを作成',
+	'LBL_WIZARD_FINISH7'                           => 'アプリケーション設定の閲覧及び管理',
+	'LBL_WIZARD_FINISH8'                           => '詳細設定の管理(アプリケーションの初期設定を含む)',
+	'LBL_WIZARD_FINISH9'                           => 'アプリケーション設定',
+	'LBL_WIZARD_FINISH10'                          => 'スタジオにてアプリケーションのフィールドやレイアウトを管理できます。、',
+	'LBL_WIZARD_FINISH11'                          => 'Sugar Universityを訪問 ',
+	'LBL_WIZARD_FINISH12'                          => 'トレーニング関連資料を探す',
+	'LBL_WIZARD_FINISH14'                          => '文書 ',
+	'LBL_WIZARD_FINISH15'                          => '製品ガイド及びリリースノート',
+	'LBL_WIZARD_FINISH16'                          => 'ナレッジベース',
+	'LBL_WIZARD_FINISH17'                          => 'SugarCRMサポートTips',
+	'LBL_WIZARD_FINISH18'                          => 'フォーラム',
+	'LBL_WIZARD_FINISH19'                          => 'Sugarコミュニティ(SugarCRM 開発チームとのコミュニケーション)',
+	'LBL_WIZARD_FINISH2DESC'                       => 'アプリケーションのホームページ',
+	'LBL_WIZARD_PERSONALINFO'                      => '個人情報',
+	'LBL_WIZARD_LOCALE'                            => '言語設定',
+	'LBL_WIZARD_SMTP'                              => 'メールアカウント',
+	'LBL_WIZARD_PERSONALINFO_DESC'                 => '貴方の個人情報を入力してください(他のユーザによって閲覧可能)<br />フィールドの<span class="required">*</span> は入力必須項目となります。',
+	'LBL_WIZARD_LOCALE_DESC'                       => 'タイムゾーンと日付フォーマット、通貨、名前を入力してください。',
+	'LBL_WIZARD_SMTP_DESC'                         => 'SMTPメールアカウントを入力してください。',
+	'LBL_EAPM_SUBPANEL_TITLE'                      => '外部アカウント',
 
 	'LBL_EDITLAYOUT'                               => 'レイアウト編集' /*for 508 compliance fix*/ ,
 	'LBL_HELP'                                     => 'ヘルプ' /*for 508 compliance fix*/ ,
 	'LBL_CHECKMARK'                                => 'チェックマーク' /*for 508 compliance fix*/ ,
 	'LBL_THEMEPREVIEW'                             => 'プレビュー' /*for 508 compliance fix*/ ,
 
-	'LBL_OAUTH_TOKENS'                             => 'OAuth Tokens',
-	'LBL_OAUTH_TOKENS_SUBPANEL_TITLE'              => "OAuth Access Tokens",
+	'LBL_OAUTH_TOKENS'                             => 'Oトークン認証',
+	'LBL_OAUTH_TOKENS_SUBPANEL_TITLE'              => "Oトークン認証アクセスs",
 
 	//For export labels
-	'LBL_MODIFIED_USER_ID'                         => 'Modified User ID',
+	'LBL_MODIFIED_USER_ID'                         => '更新ユーザID',
 	'LBL_PHONE_HOME'                               => '自宅電話番号',
 	'LBL_PHONE_MOBILE'                             => '携帯電話番号',
 	'LBL_PHONE_WORK'                               => '職場電話番号',
