@@ -87,8 +87,8 @@ $mod_strings                        = array (
 	'LBL_PHONE'                        => '電話',
 	'LBL_REMINDER'                     => '通知:',
 	'LBL_REMINDER_POPUP'               => 'ポップアップ',
-	'LBL_REMINDER_EMAIL'               => 'Eメール',
-	'LBL_REMINDER_EMAIL_ALL_INVITEES'  => 'Eメール全ての招待客',
+	'LBL_REMINDER_EMAIL'               => 'Eメール通知',
+	'LBL_REMINDER_EMAIL_ALL_INVITEES'  => 'Eメール通知',
 	'LBL_EMAIL_REMINDER'               => 'Eメール通知',
 	'LBL_EMAIL_REMINDER_TIME'          => 'Eメール通知時間',
 	'LBL_SEND_BUTTON_TITLE'            => '招待送信 [Alt+I]',
@@ -133,12 +133,12 @@ $mod_strings                        = array (
 	'LBL_EXPORT_REMINDER_TIME'         => '通知 (～分前)',
 
 	// create invitee functionallity
-	'LBL_CREATE_INVITEE'               => '招待客',
+	'LBL_CREATE_INVITEE'               => '通知先',
 	'LBL_CREATE_CONTACT'               => 'コンタクトとして',
 	'LBL_CREATE_LEAD'                  => 'リードとして',
 	'LBL_CREATE_AND_ADD'               => '作成 & 追加',
 	'LBL_CANCEL_CREATE_INVITEE'        => 'キャンセル',
-	'LBL_EMPTY_SEARCH_RESULT'          => '結果が見つかりません。招待客を作成してください。',
+	'LBL_EMPTY_SEARCH_RESULT'          => '結果が見つかりません。通知先を作成してください。',
 	'LBL_NO_ACCESS'                    => 'モジュール $module へのアクセス権がありません。',
 
 	'LBL_REPEAT_TYPE'                  => 'リピートタイプ',
