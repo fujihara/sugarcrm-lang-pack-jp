@@ -2265,8 +2265,8 @@ $app_strings      = array(
 	'LBL_EDIT_BUTTON_LABEL' => '編集',
 	'LBL_EDIT_BUTTON_TITLE' => '編集',
 	'LBL_DUPLICATE_BUTTON_KEY' => 'u',
-	'LBL_DUPLICATE_BUTTON_LABEL' => '重複',
-	'LBL_DUPLICATE_BUTTON_TITLE' => '重複',
+	'LBL_DUPLICATE_BUTTON_LABEL' => '複製',
+	'LBL_DUPLICATE_BUTTON_TITLE' => '複製',
 	'LBL_DELETE_BUTTON_KEY' => 'd',
 	'LBL_DELETE_BUTTON_LABEL' => '削除',
 	'LBL_DELETE_BUTTON_TITLE' => '削除',
@@ -2284,7 +2284,7 @@ $app_strings      = array(
 	'LBL_KEYBOARD_SHORTCUTS_HELP' => '<p><strong>フォーム機能 - Alt+</strong><br/> I = ed<b>I</b>t (detailview)<br/> U = d<b>U</b>plicate (detailview)<br/> D = <b>D</b>elete (detailview)<br/> A = s<b>A</b>ve (editview)<br/> L = cance<b>L</b> (editview) <br/><br/></p><p><strong>検索＆ナビゲーション  - Alt+</strong><br/> 7 = first input on Edit form<br/> 8 = オプション検索 link<br/> 9 = First Search Form input<br/> 0 = Unified search input<br></p>',
 	'ERR_CONNECTOR_NOT_ARRAY' => 'エラー：connector array in {0} been defined incorrectly or is empty and could not be used.',
 	'ERR_SUHOSIN' => 'エラー：Upload stream is blocked by Suhosin, please add &quot;upload&quot; to suhosin.executor.include.whitelist (See sugarcrm.log for more information)',
-	'ERR_BAD_RESPONSE_FROM_SERVER' => 'サーバからのレスポンスが悪い'
+	'ERR_BAD_RESPONSE_FROM_SERVER' => 'サーバからのレスポンス不良'
 );
 $app_list_strings['moduleList']['Library']                = 'ライブラリ';
 $app_list_strings['library_type']                         = array(
