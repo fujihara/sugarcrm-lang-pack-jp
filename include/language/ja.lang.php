@@ -2307,7 +2307,7 @@ $app_list_strings['kbdocument_status_dom']                = array(
 	'Published' => '発行済み'
 );
 $app_list_strings['kbadmin_actions_dom']                  = array(
-	'' => '--Admin Actions--',
+	'' => '--管理者アクション--',
 	'Create New Tag' => 'タグ作成',
 	'Delete Tag' => 'タグ削除',
 	'Rename Tag' => 'リネームタグ',

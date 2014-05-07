@@ -88,7 +88,7 @@ $mod_strings                                = array(
 	'LBL_DESCRIPTION_INFORMATION'              => '詳細情報',
 	'LBL_DESCRIPTION'                          => '詳細:',
 	'LBL_DIRECT_REPORTS_SUBPANEL_TITLE'        => '直属の部下',
-	'LBL_DO_NOT_CALL'                          => '電話不可:',
+	'LBL_DO_NOT_CALL'                          => '発信禁止:',
 	'LBL_DUPLICATE'                            => '重複の可能性がある取引先担当者一覧',
 	'LBL_EMAIL_ADDRESS'                        => 'Eメール:',
 	'LBL_EMAIL_OPT_OUT'                        => 'メール送信除外:',
@@ -207,7 +207,7 @@ $mod_strings                                = array(
 	'LBL_CONTACTS_SUBPANEL_TITLE'              => '連絡先',
 	'LBL_PROJECT_SUBPANEL_TITLE'               => 'プロジェクト',
 	'LBL_CAMPAIGNS_SUBPANEL_TITLE'             => 'キャンペーン',
-	'LNK_IMPORT_CONTACTS'                      => 'コンタクトをインポート',
+	'LNK_IMPORT_CONTACTS'                      => 'データインポート',
 	//For export labels
 	'LBL_PHONE_HOME'                           => '自宅TEL',
 	'LBL_PHONE_MOBILE'                         => '携帯TEL',
